@@ -1,0 +1,80 @@
+@media screen and (max-width:812px) {
+
+    .one {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .svgFile {
+
+        right: -120px;
+        top: 35% !important;
+
+
+    }
+
+    .texts {
+
+        top: 30% !important;
+        right: 100px;
+    }
+
+    .texts p,
+    h1,
+    span {
+        line-height: 0px;
+        font-size: large !important;
+    }
+
+    .texts h1 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 900;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .bottomOfMainLat h1 {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 800;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .imgTop,
+    .imgTop2 {
+        display: none !important;
+    }
+
+    .mobileImg,
+    .mobileImg2 {
+
+        width: 200px;
+        height: 400px;
+    }
+
+    .mobileImg2 {
+        position: relative;
+        top: 40%;
+    }
+
+    .mobileImg1 {
+        position: relative;
+        top: 20%;
+    }
+
+    .mobileImg21,
+    .mobileImg22 {
+        position: relative;
+        width: 200px;
+        height: 400px;
+    }
+
+    .mobileImg31,
+    .mobileImg32 {
+        position: relative;
+        width: 200px;
+        height: 400px;
+    }
+
+}

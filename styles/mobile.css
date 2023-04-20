@@ -1,0 +1,152 @@
+@media screen and (max-width:550px) {
+    #at550 {
+        display: none;
+    }
+
+    .item {
+        background-color: aqua !important;
+        height: 100vh !important;
+        width: 100% !important;
+    }
+
+    .owl-theme {
+
+        position: relative !important;
+
+    }
+
+    .owl-theme .owl-dots {
+        position: absolute !important;
+
+        bottom: 10%;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+
+        width: 10px;
+        height: 10px;
+        margin: 5px 7px !important;
+        background: #D6D6D6;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity .2s ease;
+        border-radius: 30px;
+
+    }
+
+    .h75 {
+        height: 65% !important;
+        box-shadow: 20px 20px 90px green;
+    }
+
+    .h25 {
+        height: 35% !important;
+        box-shadow: 20px 20px 90px rgb(7, 247, 7);
+    }
+
+    .imgMobile1,
+    .imgMobile2 {
+        height: 90% !important;
+        max-width: 300px;
+        object-fit: contain;
+        position: relative;
+    }
+
+    .imgMobile1 img,
+    .imgMobile2 img {
+        height: 100%;
+        width: 100%;
+
+
+    }
+
+    .imgMobile1 img {
+        position: absolute;
+        top: 8%;
+
+    }
+
+    .imgMobile2 img {
+        position: absolute;
+        top: 15%;
+
+    }
+
+    .bottomOfMain h1,
+    p {
+        line-height: 15px !important;
+        font-weight: 500 !important;
+    }
+
+    .bottomOfMain h1 {
+        font-weight: 900 !important;
+        font-size: xx-large !important;
+    }
+
+    /* section 2 */
+    .hfix {
+        height: 90% !important;
+        max-width: 95% !important;
+        object-fit: contain;
+        position: relative;
+    }
+
+    .hfix img {
+        height: 100% !important;
+        max-width: 100% !important;
+
+    }
+
+    .imgMobile1b img {
+        position: absolute;
+        top: 2%;
+    }
+
+    .imgMobile2b img {
+        position: absolute;
+        top: 12%;
+    }
+
+    .imgMobile3b img {
+        position: absolute;
+        top: 15%;
+    }
+
+    .mSkip span {
+        background-image: linear-gradient(red, yellow);
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .mSkipB span {
+        background-image: linear-gradient(pink, green);
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .mSkipLast span {
+        background-image: linear-gradient(blue, green);
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .imgMobile1Last {
+        height: 50%;
+        width: 200px;
+        margin: auto;
+    }
+
+    .imgMobile1Last img {
+        object-position: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:551px) {
+    #greater550 {
+        display: none;
+    }
+}

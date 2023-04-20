@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    display: flex !important;
+    align-items: center !important;
+    height: 100vh !important;
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+
+.left {
+    flex: 60%;
+    position: relative;
+    height: 100vh;
+    box-shadow: 20px 20px 90px green;
+}
+
+.svgFile {
+    position: absolute;
+    right: -120px;
+    top: 25% !important;
+    z-index: 9;
+
+}
+
+.texts {
+    position: absolute;
+    top: 38% !important;
+    right: 100px;
+}
+
+.texts p,
+h1,
+span {
+    color: white;
+    /* padding: 10px 0; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.texts h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.rightShift {
+    text-align: end;
+}
+
+.one {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.bottomOfMainLat {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 90%;
+}
+
+.bottomOfMainLat h1 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bottomOfMainLat p {
+    color: #fff;
+    font-weight: 200;
+}
+
+.bottomOfMain {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 90%;
+}
+
+.bottomOfMain h1 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bottomOfMain p {
+    color: #fff;
+    font-weight: 200;
+}
+
+.right {
+    flex: 40%;
+    position: relative;
+    height: 100vh;
+    box-shadow: 20px 20px 90px rgb(7, 247, 7);
+}
+
+.skip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skip span {
+    font-size: 100;
+}
+
+.imgTop,
+.imgTop2 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    /* background-color: bisque; */
+}
+
+.imgTop img {
+    height: 100%;
+    width: 100%;
+}
+
+.imgTop2 img {
+    position: absolute;
+    top: -60%;
+    right: -40%;
+    height: 100%;
+    width: 100%;
+}
+
+.mobileImg,
+.mobileImg2 {
+    position: relative;
+    width: 300px;
+    height: 500px;
+}
+
+.mobileImg img,
+.mobileImg2 img {
+    height: 100%;
+    width: 100% !important;
+}
+
+.mobileImg2 {
+    position: relative;
+    top: -50%;
+}
+
+.mobileImg1 {
+    position: relative;
+    top: -20%;
+}
+
+
+/* 2nd section */
+.mobileImg21,
+.mobileImg22 {
+    position: relative;
+    width: 300px;
+    height: 500px;
+}
+
+.mobileImg21 img,
+.mobileImg22 img {
+    height: 100%;
+    width: 100% !important;
+}
+
+/* 3rd section */
+.mobileImg31,
+.mobileImg32 {
+    position: relative;
+    width: 300px;
+    height: 500px;
+}
+
+.mobileImg31 img,
+.mobileImg32 img {
+    height: 100%;
+    width: 100% !important;
+}
+
+.mobileImg32 {
+    position: relative;
+    top: -20%;
+}
+
+/* section 4 */
+.mobileImg41 {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+
+.mobileImg41 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* last section */
+.lastH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.mobileImg22last {
+    position: relative;
+    right: 50%;
+}
+
+.h {
+    height: 100vh;
+}
+
+.left {
+    flex: 40% !important;
+}
+
+.right {
+    flex: 60% !important;
+}
+
+.g {
+    background-color: green;
+}
+
+.w {
+    background-color: rgb(7, 247, 7);
+}
+
+.blue {
+    background-color: blue;
+}
+
+.darkBlue {
+    background-color: rgb(7, 7, 107);
+}
+
+.yellowish {
+    background-color: yellow;
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.orangered {
+    background-color: orangered;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pinkish {
+    background-color: palevioletred;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.black {
+    background-color: black;
+}
+
+.blackish {
+    background-color: rgba(0, 0, 0, 0.753);
+}
